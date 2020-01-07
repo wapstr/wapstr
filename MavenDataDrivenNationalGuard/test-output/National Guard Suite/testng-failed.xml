@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" guice-stage="DEVELOPMENT" name="Failed suite [National Guard Suite]">
+  <test name="GetStarted(failed)">
+    <classes>
+      <class name="com.nationalguard.weightcal.WeightCalculatorTest">
+        <methods>
+          <include name="setupSuite"/>
+          <include name="setup"/>
+          <include name="tearDownMethod"/>
+        </methods>
+      </class> <!-- com.nationalguard.weightcal.WeightCalculatorTest -->
+      <class name="com.nationalguard.getstarted.NationalGuardGetStarted">
+        <methods>
+          <include name="setupSuite"/>
+          <include name="setup"/>
+          <include name="tearDownMethod"/>
+          <include name="getStartedForm"/>
+        </methods>
+      </class> <!-- com.nationalguard.getstarted.NationalGuardGetStarted -->
+      <class name="com.nationalguard.fitness.FitnessCal">
+        <methods>
+          <include name="setupSuite"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.nationalguard.fitness.FitnessCal -->
+      <class name="com.nationalguard.guardpay.GuardPayTest">
+        <methods>
+          <include name="setupSuite"/>
+          <include name="setup"/>
+          <include name="tearDownMethod"/>
+        </methods>
+      </class> <!-- com.nationalguard.guardpay.GuardPayTest -->
+    </classes>
+  </test> <!-- GetStarted(failed) -->
+  <test name="FiltnessCalculator(failed)">
+    <classes>
+      <class name="com.nationalguard.weightcal.WeightCalculatorTest">
+        <methods>
+          <include name="setupSuite"/>
+          <include name="setup"/>
+          <include name="tearDownMethod"/>
+        </methods>
+      </class> <!-- com.nationalguard.weightcal.WeightCalculatorTest -->
+      <class name="com.nationalguard.getstarted.NationalGuardGetStarted">
+        <methods>
+          <include name="setupSuite"/>
+          <include name="setup"/>
+          <include name="tearDownMethod"/>
+        </methods>
+      </class> <!-- com.nationalguard.getstarted.NationalGuardGetStarted -->
+      <class name="com.nationalguard.fitness.FitnessCal">
+        <methods>
+          <include name="setupSuite"/>
+          <include name="setup"/>
+          <include name="fitnessCalculatorFemale"/>
+          <include name="fitnessCalculatorMale"/>
+        </methods>
+      </class> <!-- com.nationalguard.fitness.FitnessCal -->
+      <class name="com.nationalguard.guardpay.GuardPayTest">
+        <methods>
+          <include name="setupSuite"/>
+          <include name="setup"/>
+          <include name="tearDownMethod"/>
+        </methods>
+      </class> <!-- com.nationalguard.guardpay.GuardPayTest -->
+    </classes>
+  </test> <!-- FiltnessCalculator(failed) -->
+</suite> <!-- Failed suite [National Guard Suite] -->

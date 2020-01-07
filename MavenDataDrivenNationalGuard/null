@@ -1,0 +1,226 @@
+[1578360407.239][INFO]: Starting ChromeDriver 79.0.3945.36 (3582db32b33893869b8c1339e8f4d9ed1816f143-refs/branch-heads/3945@{#614})
+[1578360407.239][INFO]: Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+[1578360407.709][INFO]: [9746abaa827685ddc3d84523d7fab30b] COMMAND InitSession {
+   "capabilities": {
+      "firstMatch": [ {
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [  ],
+            "extensions": [  ]
+         }
+      } ]
+   },
+   "desiredCapabilities": {
+      "browserName": "chrome",
+      "goog:chromeOptions": {
+         "args": [  ],
+         "extensions": [  ]
+      }
+   }
+}
+[1578360407.711][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1578360407.712][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1578360407.717][INFO]: Launching chrome: "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --disable-background-networking --disable-client-side-phishing-detection --disable-default-apps --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-automation --enable-blink-features=ShadowDOMV0 --enable-logging --load-extension="C:\Users\ioadmin\AppData\Local\Temp\scoped_dir22700_1090431722\internal" --log-level=0 --no-first-run --password-store=basic --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir="C:\Users\ioadmin\AppData\Local\Temp\scoped_dir22700_945458475" data:,
+[1578360408.280][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1578360409.320][INFO]: [9746abaa827685ddc3d84523d7fab30b] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": false,
+      "browserName": "chrome",
+      "browserVersion": "79.0.3945.88",
+      "chrome": {
+         "chromedriverVersion": "79.0.3945.36 (3582db32b33893869b8c1339e8f4d9ed1816f143-refs/branch-heads/3945@{#614})",
+         "userDataDir": "C:\\Users\\ioadmin\\AppData\\Local\\Temp\\scoped_dir22700_945458475"
+      },
+      "goog:chromeOptions": {
+         "debuggerAddress": "localhost:60922"
+      },
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "windows",
+      "proxy": {
+
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "dismiss and notify"
+   },
+   "sessionId": "9746abaa827685ddc3d84523d7fab30b"
+}
+[1578360409.327][INFO]: [9746abaa827685ddc3d84523d7fab30b] COMMAND MaximizeWindow {
+
+}
+[1578360409.327][INFO]: Waiting for pending navigations...
+[1578360409.335][INFO]: Done waiting for pending navigations. Status: ok
+[1578360409.336][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1578360410.497][INFO]: Waiting for pending navigations...
+[1578360410.499][INFO]: Done waiting for pending navigations. Status: ok
+[1578360410.499][INFO]: [9746abaa827685ddc3d84523d7fab30b] RESPONSE MaximizeWindow {
+   "height": 1056,
+   "width": 1936,
+   "x": -8,
+   "y": -8
+}
+[1578360410.511][INFO]: [9746abaa827685ddc3d84523d7fab30b] COMMAND SetTimeouts {
+   "pageLoad": 30000
+}
+[1578360410.511][INFO]: [9746abaa827685ddc3d84523d7fab30b] RESPONSE SetTimeouts
+[1578360410.527][INFO]: [9746abaa827685ddc3d84523d7fab30b] COMMAND SetTimeouts {
+   "script": 30000
+}
+[1578360410.527][INFO]: [9746abaa827685ddc3d84523d7fab30b] RESPONSE SetTimeouts
+[1578360410.548][INFO]: [9746abaa827685ddc3d84523d7fab30b] COMMAND SetTimeouts {
+   "implicit": 30000
+}
+[1578360410.548][INFO]: [9746abaa827685ddc3d84523d7fab30b] RESPONSE SetTimeouts
+[1578360410.570][INFO]: [9746abaa827685ddc3d84523d7fab30b] COMMAND Navigate {
+   "url": "https://www.nationalguard.com/"
+}
+[1578360410.570][INFO]: Waiting for pending navigations...
+[1578360410.573][INFO]: Done waiting for pending navigations. Status: ok
+[1578360410.947][INFO]: Waiting for pending navigations...
+[1578360414.294][INFO]: Done waiting for pending navigations. Status: ok
+[1578360414.294][INFO]: [9746abaa827685ddc3d84523d7fab30b] RESPONSE Navigate
+[1578360414.302][INFO]: [9746abaa827685ddc3d84523d7fab30b] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//button[@class='hamburger tab-focus']"
+}
+[1578360414.302][INFO]: Waiting for pending navigations...
+[1578360414.304][INFO]: Done waiting for pending navigations. Status: ok
+[1578360414.324][INFO]: Waiting for pending navigations...
+[1578360414.325][INFO]: Done waiting for pending navigations. Status: ok
+[1578360414.325][INFO]: [9746abaa827685ddc3d84523d7fab30b] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "8e002e56-45b3-45d6-b0b0-04c1a8e1dcde"
+}
+[1578360414.332][INFO]: [9746abaa827685ddc3d84523d7fab30b] COMMAND ClickElement {
+   "id": "8e002e56-45b3-45d6-b0b0-04c1a8e1dcde"
+}
+[1578360414.332][INFO]: Waiting for pending navigations...
+[1578360414.334][INFO]: Done waiting for pending navigations. Status: ok
+[1578360414.444][INFO]: Waiting for pending navigations...
+[1578360414.462][INFO]: Done waiting for pending navigations. Status: ok
+[1578360414.462][INFO]: [9746abaa827685ddc3d84523d7fab30b] RESPONSE ClickElement
+[1578360414.468][INFO]: [9746abaa827685ddc3d84523d7fab30b] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//a[contains(text(),'Soldier Tools')]"
+}
+[1578360414.468][INFO]: Waiting for pending navigations...
+[1578360414.469][INFO]: Done waiting for pending navigations. Status: ok
+[1578360414.478][INFO]: Waiting for pending navigations...
+[1578360414.479][INFO]: Done waiting for pending navigations. Status: ok
+[1578360414.479][INFO]: [9746abaa827685ddc3d84523d7fab30b] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "17ca2b51-6c08-4842-99ea-fc4e34a273c6"
+}
+[1578360414.484][INFO]: [9746abaa827685ddc3d84523d7fab30b] COMMAND ClickElement {
+   "id": "17ca2b51-6c08-4842-99ea-fc4e34a273c6"
+}
+[1578360414.484][INFO]: Waiting for pending navigations...
+[1578360414.485][INFO]: Done waiting for pending navigations. Status: ok
+[1578360414.674][INFO]: Waiting for pending navigations...
+[1578360414.683][INFO]: Done waiting for pending navigations. Status: ok
+[1578360414.683][INFO]: [9746abaa827685ddc3d84523d7fab30b] RESPONSE ClickElement
+[1578360414.687][INFO]: [9746abaa827685ddc3d84523d7fab30b] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//a[contains(text(),'The Guard Story')]"
+}
+[1578360414.688][INFO]: Waiting for pending navigations...
+[1578360414.692][INFO]: Done waiting for pending navigations. Status: ok
+[1578360414.702][INFO]: Waiting for pending navigations...
+[1578360414.704][INFO]: Done waiting for pending navigations. Status: ok
+[1578360414.704][INFO]: [9746abaa827685ddc3d84523d7fab30b] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "9a4468de-21aa-4dee-9ebd-0a4560ade9bb"
+}
+[1578360414.707][INFO]: [9746abaa827685ddc3d84523d7fab30b] COMMAND ClickElement {
+   "id": "9a4468de-21aa-4dee-9ebd-0a4560ade9bb"
+}
+[1578360414.707][INFO]: Waiting for pending navigations...
+[1578360414.709][INFO]: Done waiting for pending navigations. Status: ok
+[1578360415.779][INFO]: Waiting for pending navigations...
+[1578360415.780][INFO]: Done waiting for pending navigations. Status: ok
+[1578360415.781][INFO]: [9746abaa827685ddc3d84523d7fab30b] RESPONSE ClickElement ERROR element click intercepted: Element <a href="/legacy" class="child-link tab-focus">...</a> is not clickable at point (1483, 908). Other element would receive the click: <footer id="main-footer">...</footer>
+  (Session info: chrome=79.0.3945.88)
+[1578360415.787][INFO]: [9746abaa827685ddc3d84523d7fab30b] COMMAND Screenshot {
+
+}
+[1578360415.787][INFO]: Waiting for pending navigations...
+[1578360415.789][INFO]: Done waiting for pending navigations. Status: ok
+[1578360416.130][INFO]: Waiting for pending navigations...
+[1578360416.131][INFO]: Done waiting for pending navigations. Status: ok
+[1578360416.131][INFO]: [9746abaa827685ddc3d84523d7fab30b] RESPONSE Screenshot "iVBORw0KGgoAAAANSUhEUgAAB4AAAAOdCAYAAABkpX+QAAAAAXNSR0IArs4c6QAAIABJREFUeJzs3X9snPedH/i3PaZMiTRFijJpOrRpK1Zk01GklatEWXsdu1E2m0022l2kZ6DXbXDA9nq4IkWBW+DuilugQLtXoNj0iitaoIsFWmT3inMbOPXGqfNDOTlKFCtRr..."
+[1578360416.157][INFO]: [9746abaa827685ddc3d84523d7fab30b] COMMAND DeleteAllCookies {
+
+}
+[1578360416.157][INFO]: Waiting for pending navigations...
+[1578360416.158][INFO]: Done waiting for pending navigations. Status: ok
+[1578360416.208][INFO]: Waiting for pending navigations...
+[1578360416.208][INFO]: Done waiting for pending navigations. Status: ok
+[1578360416.208][INFO]: [9746abaa827685ddc3d84523d7fab30b] RESPONSE DeleteAllCookies
+[1578360416.220][INFO]: [9746abaa827685ddc3d84523d7fab30b] COMMAND Quit {
+
+}
+[1578360416.245][INFO]: [9746abaa827685ddc3d84523d7fab30b] RESPONSE Quit

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.nationalguard.eligibility.Eligibility">
+        <methods>
+          <include name="setupSuite"/>
+          <include name="setup"/>
+          <include name="eligibility"/>
+          <include name="tearDownMethod"/>
+        </methods>
+      </class> <!-- com.nationalguard.eligibility.Eligibility -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

@@ -1,0 +1,54 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">	
+
+<suite thread-count="1" verbose="1" name="National Guard Suite" annotations="JDK" >
+         
+  <test name="GetStarted" >
+	 <classes>
+	   <class name="com.nationalguard.getstarted.NationalGuardGetStarted"/>
+	 </classes>
+   </test>
+   
+ <test name="FiltnessCalculator" >
+	 <classes>
+	   <class name="com.nationalguard.fitness.FitnessCal"/>
+	 </classes>
+   </test>
+   
+   <test name="GuardPay" >
+	 <classes>
+	   <class name="com.nationalguard.guardpay.GuardPayTest"/>
+	 </classes>
+   </test>
+    <test name="Pasvab" >
+	 <classes>
+	   <class name="com.nationalguard.pasvab.Pasvab"/>
+	 </classes>
+   </test>
+   <test name="WeightCalculator" >
+	 <classes>
+	   <class name="com.nationalguard.weightcal.WeightCalculatorTest"/>
+	 </classes>
+   </test> 
+   
+   <test name="Myenlistmenttimeline" >
+	 <classes>
+	   <class name="com.nationalguard.myenlistmenttimeline.Myenlistmenttimeline"/>
+	 </classes>
+	 </test>
+	  <test name="Careers" >
+	 <classes>
+	   <class name="com.nationalguard.careers.Careers"/>
+	 </classes>
+   
+   </test>
+    <test name="Benefits" >
+	 <classes>
+	   <class name="com.nationalguard.benefits.Benefits"/>
+	 </classes>
+   </test> 
+   <test name="Resources" >
+	 <classes>
+	   <class name="com.nationalguard.resources.Resources"/>
+	 </classes>
+   </test> 
+</suite>
